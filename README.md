@@ -33,9 +33,13 @@ Loosly based on how I expect to tackle the project
 Example Usage: In Memory
 --------------------------
 
-    >>> import daeta
-    >>> print 2
-    2
+To play around, you can just create a stash (aka collection or table) and just shove data into it
+
+    >>> from daeta import Stash
+    >>> stuff = Stash('home_inventory')
+    >>> stuff.add(dict(name='TV', cost=25.00))
+    >>> stuff.add(dict(name='Leather Sofa', cost=200.00))
+    >>> stuff.add(dict(name='Desk', cost=5.00))
 
 
 
