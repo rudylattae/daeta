@@ -28,3 +28,14 @@ Loosly based on how I expect to tackle the project
 - MongoDb
 - MySql
 - ... more
+
+
+Example Usage: In Memory
+--------------------------
+
+    >>> import daeta
+    >>> print 2
+    2
+
+
+
