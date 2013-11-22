@@ -10,3 +10,6 @@ class Stash(object):
 
     def add(self, item):
         pass
+
+    def all(self):
+        return []

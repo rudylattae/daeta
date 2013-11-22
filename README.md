@@ -35,11 +35,20 @@ Example Usage: In Memory
 
 To play around, you can just create a stash (aka collection or table) and just shove data into it
 
+    # Let's say you want to keep track of things you have at home
     >>> from daeta import Stash
     >>> stuff = Stash('home_inventory')
+
+    # for starters, you have nothing
+    >>> stuff.all()
+    []
+
+    # so you go out and buy a bunch of crap
     >>> stuff.add(dict(name='TV', cost=25.00))
     >>> stuff.add(dict(name='Leather Sofa', cost=200.00))
     >>> stuff.add(dict(name='Desk', cost=5.00))
 
-
+    # now you are living la vie!
+    >>> len(stuff.all())
+    3
 
