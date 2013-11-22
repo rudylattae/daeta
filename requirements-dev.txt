@@ -1,0 +1,3 @@
+flake8==2.1.0
+fudge==1.0.3
+https://bitbucket.org/rudylattae/checkit/get/tip.tar.gz#egg=checkit==0.3.3b
