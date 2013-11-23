@@ -7,9 +7,10 @@ class Stash(object):
 
     def __init__(self, name):
         self.name = name
+        self._items = []
 
     def add(self, item):
-        pass
+        self._items.append(item)
 
     def all(self):
-        return []
+        return self._items

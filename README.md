@@ -30,12 +30,14 @@ Loosly based on how I expect to tackle the project
 - ... more
 
 
-Example Usage: In Memory
---------------------------
+Example Usage: In Memory Stash
+--------------------------------
 
 To play around, you can just create a stash (aka collection or table) and just shove data into it
 
-    # Let's say you want to keep track of things you have at home
+We need a story to drive the example so... let's say you want to keep track of things you have at home
+    
+    # you create a stash for your stuff
     >>> from daeta import Stash
     >>> stuff = Stash('home_inventory')
 
@@ -48,7 +50,8 @@ To play around, you can just create a stash (aka collection or table) and just s
     >>> stuff.add(dict(name='Leather Sofa', cost=200.00))
     >>> stuff.add(dict(name='Desk', cost=5.00))
 
-    # now you are living la vie!
+    # now you are living la vida crapola!
     >>> len(stuff.all())
     3
+
 
