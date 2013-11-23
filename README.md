@@ -11,9 +11,9 @@ would be whatever, but the api would allow me to pretend like I am talking to a 
 Features
 ---------
 
-- No need to define a model, just work with python dicts (think JSON)
-- Quick CRUD; very light on the "R" implementation
-- Multiple backend implementations - some may expose additional features beyond common
+- [] No need to define a model, just work with python dicts (think JSON)
+- [ ] Quick CRUD; very light on the "R" implementation
+- [ ] Multiple backend implementations - some may expose additional features beyond common
 - Simple and flexible API
 - Auto schema migrations when data structure changes
 - Pipe data from one backend to another
